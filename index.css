@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(72, 164, 163);
+}
+
+.navbar img.menu-btn {
+    width: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.drawer {
+    height: 100%; /* Adjust height as needed */
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #fff; /* Example background color */
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.drawer a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.2s;
+}
+
+.drawer a:hover {
+    background-color: #ccc; /* Example hover color */
+}
+
+.content {
+    margin-left: 0; /* Initially set to 0 */
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
